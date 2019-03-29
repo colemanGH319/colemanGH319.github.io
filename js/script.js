@@ -12,7 +12,7 @@ $(window).on("load", function() {
       queue: false
     }
   })
-  
+
 })
 
 $(document).ready(function() {

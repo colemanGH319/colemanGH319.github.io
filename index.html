@@ -15,7 +15,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
+    <link href="./css/multiple.css" rel="stylesheet">
     <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
@@ -30,6 +30,7 @@
     <div id="slides">
       <div class="overlay">
       </div>
+
       <div class="slides-container">
         <img src="img/slide1.jpg" alt="">
         <img src="img/slide2.jpg" alt="">
@@ -66,6 +67,16 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/colemanGH319">
+              <i class="fab fa-github ghlink"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/matt-coleman-nyc/">
+              <i class="fab fa-linkedin-in ghlink"></i>
+            </a>
           </li>
         </ul>
       </div>
@@ -166,9 +177,7 @@
               <li><a href="#" data-filter="*" class="current">ALL</a></li>
               <li><a href="#" data-filter=".react">REACT</a></li>
               <li><a href="#" data-filter=".react-native">REACT NATIVE</a></li>
-              <li><a href="#" data-filter=".vanilla">VANILLA JS</a></li>
-              <li><a href="#" data-filter=".flask">FLASK</a></li>
-              <li><a href="#" data-filter=".django">DJANGO</a></li>
+              <li><a href="#" data-filter=".django">DJANGO REST</a></li>
             </ul>
           </div>
           <div class="items-container">
@@ -181,7 +190,7 @@
                     <a href="img/portfolio-images/scales-of-justice-silhouette.jpg"
                     title="View Image" class="open-button" data-fancybox
                     data-caption="Would You Rather">
-                      <i class="fa fa-search"></i
+                      <i class="fa fa-search"></i>
                     </a>
                     <a href="https://would-you-rather-mc.herokuapp.com/" target="_blank" class="project-link">
                       <i class="fa fa-link"></i>
@@ -226,7 +235,25 @@
                   <div class="image-overlay">My Reads</div>
                 </div>
               </li>
-<!-- 
+
+              <li onclick="" class="react django col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio-images/thumbnails/petstore-min.png">
+
+                  <div class="icons">
+                    <a href="img/portfolio-images/petstore-min.png"
+                    title="View Image" class="open-button" data-fancybox
+                    data-caption="My-Reads">
+                      <i class="fa fa-search"></i
+                    </a>
+                    <a href="https://petshop-by-matt.netlify.com/" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="image-overlay">PetShop</div>
+                </div>
+              </li>
+<!--
               <li onclick="" class="flask col-xs-6 col-sm-4 col-md-3 col-lg-3">
                 <div class="item">
                   <img src="img/portfolio-images/thumbnails/metrics.jpg">
@@ -279,6 +306,7 @@
 
 
   <script src="js/jquery.superslides.min.js"></script>
+  <script src="js/multiple.min.js"></script>
   <script src="js/typed.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.easypiechart.min.js"></script>
